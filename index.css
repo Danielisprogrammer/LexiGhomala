@@ -9,6 +9,7 @@
     --accent-color: #FFB300;
     --background-color: #F0F0F0;
     --text-color: #37474F;
+    --text-traduction-color:#f00f0f;
 }
 * {
     margin: 0;
@@ -63,7 +64,12 @@ header {
     color: var(--accent-color);
     border-bottom: #E64A19 2px solid;
 }
-
+#traduction-resultat {
+    font-size: 3rem;
+    padding-top: 0rem;
+    color: var(--text-traduction-color);
+    font-weight: bold;
+}
 /*FIN DU STYLE DE LA NAVBAR*/
 
 /*DEBUT DU STYLE DE INDEX.HTML*/
