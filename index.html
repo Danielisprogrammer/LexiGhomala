@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LexiGhomala</title>
+    <link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <header>
-        <div class="logo"><h1>LexiGhomala</h1></div>
+        <div class="logo"><h1>LexiGhomala.</h1></div>
         <div class="nav-bar">
             <ul>
-                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="/index.html" class="Active">Accueil</a></li>
                 <li><a href="/Dictionary.html">Dictionaire</a></li>
                 <li><a href="/About.html">A Propos</a></li>
             </ul>
@@ -21,15 +22,18 @@
 
         <div class="choix-langue">
             <label for="langue-source">langue source </label><br>
-            <select name="langue-source" id="langue-source">
-                <option value="ghomala">Ghomala</option>
-                <option value="français">Français</option>
-            </select><br>
+                <select name="langue-source" id="langue-source">
+                    <option value="ghomala">Ghomala</option>
+                    <option value="français">Français</option>
+                </select><br>
+        
+            <ion-icon name="swap-horizontal-outline"></ion-icon>
+
             <label for="langue-cible">langue cible </label><br>
-            <select name="langue-cible" id="langue-cible">
-                <option value="ghomala">Ghomala</option>
-                <option value="français">Français</option>
-            </select>
+                <select name="langue-cible" id="langue-cible">
+                    <option value="ghomala">Ghomala</option>
+                    <option value="français">Français</option>
+                </select>
         </div>
         <div class="recherche-mot">
             <input type="text" placeholder="Rechercher un mot...">

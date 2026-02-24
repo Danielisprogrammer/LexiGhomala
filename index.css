@@ -1,0 +1,84 @@
+/*IMPORTONS LES GOOGLES FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*MES VARIABLES*/
+:root {
+    --primary-color: #1A237E;
+    --secondary-color: #E64A19;
+    --accent-color: #FFB300;
+    --background-color: #F0F0F0;
+    --text-color: #37474F;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+body {
+    background-image: url(./Assets/background-LexiGhomala.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* DEBUT DU STYLE DE LA NAVBAR*/
+
+header {
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    padding: 2rem 5rem;
+    font-size: 1.5rem;
+    width: 100%;
+    padding-bottom: 5rem;
+    z-index: 1000;
+   
+}
+.logo h1 {
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 7rem;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.nav-bar ul li a:hover {
+    color: var(--accent-color);
+    transition: 0.3s ease-in-out;
+    border-bottom: #E64A19 2px solid;
+}
+.nav-bar ul li a.Active {
+    color: var(--accent-color);
+    border-bottom: #E64A19 2px solid;
+}
+
+/*FIN DU STYLE DE LA NAVBAR*/
+
+/*DEBUT DU STYLE DE INDEX.HTML*/
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    height: 79vh;
+}
+.main-content h1 {
+    font-size: 3.5rem;
+    color: var(--primary-color);
+}
+
+
