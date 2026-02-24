@@ -80,5 +80,74 @@ header {
     font-size: 3.5rem;
     color: var(--primary-color);
 }
+.main-content .choix-langue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    width: 100vw;
+}
+.main-content .choix-langue select {
+    padding: 1rem;
+    border-radius: 3rem;
+    font-size: 4rem;
+    background-color: var(--accent-color);
+}
+.main-content .choix-langue ion-icon {
+    font-size: 5rem;
+    color: var(--primary-color);
+}
+.main-content .recherche-mot {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 
+}
+.main-content .recherche-mot input, button {
+    font-size: 3rem;
+    border-radius: 3px;
+    padding: 1rem;
+}
+/*DEBUT DU STYLE DE DICTIONNAIRE.HTML*/
 
+.Navigation-direct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    font-size: 2rem;
+    
+}
+.Navigation-direct a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+}
+.Navigation-direct a:hover {
+    color: var(--accent-color);
+    transition: 0.3s ease-in-out;
+    border-bottom: var(--accent-color) 2px solid;
+}
+.bibliotheque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 10rem 0;
+}
+.bibliotheque h1 {
+    font-size: 4rem;
+    color:var(--accent-color);
+}
+.bibliotheque p {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+.bibliotheque h2 {
+    font-size: 2rem;
+    color: var(--accent-color);
+}

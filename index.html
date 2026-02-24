@@ -21,7 +21,6 @@
         <h1>Promouvoir nos langues Vernaculaires avec LexiGhomala...</h1>
 
         <div class="choix-langue">
-            <label for="langue-source">langue source </label><br>
                 <select name="langue-source" id="langue-source">
                     <option value="ghomala">Ghomala</option>
                     <option value="français">Français</option>
@@ -29,7 +28,6 @@
         
             <ion-icon name="swap-horizontal-outline"></ion-icon>
 
-            <label for="langue-cible">langue cible </label><br>
                 <select name="langue-cible" id="langue-cible">
                     <option value="ghomala">Ghomala</option>
                     <option value="français">Français</option>
@@ -37,11 +35,14 @@
         </div>
         <div class="recherche-mot">
             <input type="text" placeholder="Rechercher un mot...">
-            <button id="btn-rechercher" type="submit">Rechercher</button>
+            <button id="btn-rechercher" type="submit"><ion-icon name="search-outline"></ion-icon>....</button>
         </div>
         <div class="traduction-resultat">
             <p id="traduction-resultat">...</p>
         </div>
     </section>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
