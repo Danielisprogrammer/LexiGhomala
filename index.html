@@ -6,6 +6,37 @@
     <title>LexiGhomala</title>
 </head>
 <body>
-    
+    <header>
+        <div class="logo">LexiGhomala</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="/Dictionary.html">Dictionaire</a></li>
+                <li><a href="/About.html">A Propos</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="main-content">
+        <h1>Promouvoir nos langues Vernaculaires avec LexiGhomala...</h1>
+
+        <div class="choix-langue">
+            <label for="langue-source">langue source </label><br>
+            <select name="langue-source" id="langue-source">
+                <option value="ghomala">Ghomala</option>
+                <option value="français">Français</option>
+            </select><br>
+            <label for="langue-cible">langue cible </label><br>
+            <select name="langue-cible" id="langue-cible">
+                <option value="ghomala">Ghomala</option>
+                <option value="français">Français</option>
+            </select>
+        </div>
+        <div class="recherche-mot">
+            <input type="text" placeholder="Rechercher un mot...">
+            <button id="btn-rechercher" type="submit">Rechercher</button>
+        </div>
+        <div class="traduction-resultat">
+            <p id="traduction-resultat">...</p>
+        </div>
+    </section>
 </body>
 </html>
