@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LexiGhomala</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>LexiGhomala.</h1></div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="/index.html" class="Active">Accueil</a></li>
+                <li><a href="/Dictionary.html">Dictionaire</a></li>
+                <li><a href="/About.html">A Propos</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="main-content">
+        <h1>Promouvoir nos langues Vernaculaires avec LexiGhomala...</h1>
+
+        <div class="choix-langue">
+                <select name="langue-source" id="langue-source">
+                    <option value="ghomala">Ghomala</option>
+                    <option value="français">Français</option>
+                </select><br>
+        
+            <ion-icon name="swap-horizontal-outline"></ion-icon>
+
+                <select name="langue-cible" id="langue-cible">
+                    <option value="ghomala">Ghomala</option>
+                    <option value="français">Français</option>
+                </select>
+        </div>
+        <div class="recherche-mot">
+            <input type="text" placeholder="Rechercher un mot...">
+            <button id="btn-rechercher" type="submit"><ion-icon name="search-outline"></ion-icon>....</button>
+        </div>
+        <div class="traduction-resultat">
+            <p id="traduction-resultat">...</p>
+        </div>
+    </section>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
