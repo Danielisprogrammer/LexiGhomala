@@ -151,3 +151,24 @@ header {
     font-size: 2rem;
     color: var(--accent-color);
 }
+
+/*FIN DU STYLE DE DICTIONNAIRE.HTML*/
+
+/*DEBUT DU STYLE DE LA PAGE ABOUT.HTML*/
+
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 10rem 0;
+}
+.About h1 {
+    font-size: 4rem;
+    color:var(--accent-color);
+}
+.About p {
+    font-size: 2rem;
+    color: var(--text-color);
+}
