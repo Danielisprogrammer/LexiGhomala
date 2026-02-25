@@ -1,4 +1,4 @@
-# LexiGhomala
+# 1.  LexiGhomala
 LexiGhomala is a front-end web dectionary that translates words between French and Ghomala, promoting the preservation of vernacular languages.
 
 # 2. Features
@@ -22,8 +22,6 @@ open index.html
 ```
 git clone https://github.com/Danielisprogrammer/LexiGhomala.git
 ```
-copy this link and paste it into your terminal
-open index.html
 # Author
 
 this project was designed and developed by Daniel Kengne (Daniel is programmer)
