@@ -1,4 +1,4 @@
-# 1.  LexiGhomala
+# 1.  LexiGhomala project
 LexiGhomala is a front-end web dectionary that translates words between French and Ghomala, promoting the preservation of vernacular languages.
 
 # 2. Features
